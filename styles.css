@@ -1,0 +1,68 @@
+<style>
+        body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background: #148935;
+    color: white;
+    height: 50px;
+    display: flex;
+    padding: 0.5%;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.map {
+    position: absolute;
+    margin: 80px 90px;
+    top: 100px;
+    bottom: 90px;
+}
+#fly {
+    display: block;
+    position: relative;
+    margin: 50px 30px;
+    height: 30px;
+    border-radius: 50px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background: red;
+}
+.mapboxgl-popup {
+    max-width: 480px;
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+.legend {
+    margin: 200px 200px;
+    background-color: #fff;
+    border-radius: 30px;
+    bottom: 90px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    padding: 10px;
+    position: absolute;
+    left: 100px;
+    z-index: 1;
+}
+.legend h4 {
+    margin: 0 0 10px;
+}
+.legend div span {
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    margin-right: 5px;
+    width: 10px;
+}
+.bg-image {
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.4), white), url('assets/image/pasantren.jpg');
+    background-size: cover;
+    opacity: 0.5;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+</style>
